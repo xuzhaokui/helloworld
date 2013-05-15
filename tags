@@ -1,0 +1,91 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BIT_NUM	bit-sort.c	7;"	d	file:
+HEAP_INSERT	priority-queue.c	11;"	d	file:
+HUGE	priority-queue.c	13;"	d	file:
+HUGE	quick-sort.c	14;"	d	file:
+LEFT	heap-sort.c	8;"	d	file:
+LEFT	priority-queue.c	9;"	d	file:
+List	bubble-sort.c	/^static int List[10]={6,5,8,3,1,2,0,9,7,4};$/;"	v	file:
+M	bucket-sort.c	5;"	d	file:
+MASK	bit-sort.c	6;"	d	file:
+MAXLEN	priority-queue.c	17;"	d	file:
+MAX_NUM	binary-tree.c	5;"	d	file:
+MAX_NUM	bit-sort.c	4;"	d	file:
+MERGE_SORT	merge-sort.c	8;"	d	file:
+PARENT	heap-sort.c	7;"	d	file:
+PARENT	priority-queue.c	8;"	d	file:
+PROGS	Makefile	/^PROGS = merge-sort insert-sort priority-queue heap-sort quick-sort cocktail-sort bubble-sort shell-sort select-sort radix-sort bucket-sort count-sort$/;"	m
+RIGHT	heap-sort.c	9;"	d	file:
+RIGHT	priority-queue.c	10;"	d	file:
+SB	merge-sort.c	7;"	d	file:
+SIZE	bubble-sort.c	17;"	d	file:
+SIZEOF	heap-sort.c	6;"	d	file:
+SIZEOF	priority-queue.c	7;"	d	file:
+TREE	binary-tree.c	/^} TREE;$/;"	t	typeref:struct:tree	file:
+WIDTH	bit-sort.c	5;"	d	file:
+a	heap-sort.c	/^static int a[10] = {2,4,3,5,1,9,6,8,7,0};$/;"	v	file:
+add_tree	binary-tree.c	/^void add_tree(TREE ** T, int num)$/;"	f
+b	priority-queue.c	/^static int b[HUGE] = {0};$/;"	v	file:
+bit_set	bit-sort.c	/^void bit_set(int BIT[], int num)$/;"	f
+bit_test	bit-sort.c	/^int bit_test(int BIT[], int num)$/;"	f
+bitsort	bit-sort.c	/^void bitsort(int A[], int N)$/;"	f
+bucketsort	bucket-sort.c	/^void bucketsort (int *a, int n)$/;"	f
+build_max_heap	heap-sort.c	/^void build_max_heap()		\/* O(nlgn),actually is O(n) P78*\/$/;"	f
+build_min_heap	priority-queue.c	/^void build_min_heap(int *array,int len)		\/* O(nlgn),actually is O(n) P78*\/$/;"	f
+cocktail_sort	cocktail-sort.c	/^void cocktail_sort(int arr[], const int length)$/;"	f
+count	binary-tree.c	/^int count = 0;$/;"	v
+countingsort	count-sort.c	/^void countingsort(int *a, int n)$/;"	f
+decrease_key	priority-queue.c	/^void decrease_key(int *array,int pos,int delta)	\/* pos is a array_index,not heap-index *\/$/;"	f
+delete	priority-queue.c	/^void delete(int *array,int pos)$/;"	f
+delete_min	priority-queue.c	/^void delete_min(int *array,int alen)		\/* array shoule be a min-heap already *\/$/;"	f
+get_index	radix-sort.c	/^int get_index(int num, int dec, int order)$/;"	f
+get_rand	bit-sort.c	/^int get_rand(int NUM[], int start, int end)$/;"	f
+gnomesort	gnome-sort.c	/^void gnomesort(int n, int ar[])$/;"	f
+heap_insert	priority-queue.c	/^void heap_insert(int *array,int uselen,int x)	\/* array[0]~array[uselen-1] is already a min_heap *\/$/;"	f
+heap_len	heap-sort.c	/^int heap_len;$/;"	v
+heap_minimum	priority-queue.c	/^int heap_minimum(int *array)$/;"	f
+heapsort	heap-sort.c	/^void heapsort()			\/* Heap-sort O(nlgn) *\/$/;"	f
+lchild	binary-tree.c	/^	struct tree *lchild;$/;"	m	struct:tree	typeref:struct:tree::tree	file:
+len	heap-sort.c	/^int len = SIZEOF(a);$/;"	v
+main	binary-tree.c	/^int main(int argc, char *argv[])$/;"	f
+main	bit-sort.c	/^int main(int argc, char *argv[])$/;"	f
+main	bubble-sort.c	/^int main(void)$/;"	f
+main	bucket-sort.c	/^int main ()$/;"	f
+main	cocktail-sort.c	/^int main()$/;"	f
+main	count-sort.c	/^void main()$/;"	f
+main	heap-sort.c	/^void main()$/;"	f
+main	insert-sort.c	/^int main()$/;"	f
+main	merge-sort.c	/^int main()$/;"	f
+main	priority-queue.c	/^void main()					\/* Get the 20 min of 65535 random numbers *\/$/;"	f
+main	quick-sort.c	/^int main()$/;"	f
+main	radix-sort.c	/^int main(int argc, char *argv[])$/;"	f
+main	select-sort.c	/^void main()$/;"	f
+main	shell-sort.c	/^int main()$/;"	f
+max_heapify	heap-sort.c	/^void max_heapify(int *array,int i)	\/* O(lgn),Obtain a max-heap *\/$/;"	f
+merge	merge-sort.c	/^void merge(int *a,int p,int q,int r)	\/* combine a[p~q] and a[q+1~r] *\/$/;"	f
+merge_sort	merge-sort.c	/^void merge_sort(int *a,int p,int r)	\/* sort a[p~r]	 *\/$/;"	f
+midwalk	binary-tree.c	/^void midwalk(TREE * T, int A[])$/;"	f
+min_heapify	priority-queue.c	/^void min_heapify(int *array,int i,int heap_len)		$/;"	f
+num	binary-tree.c	/^	int num;$/;"	m	struct:tree	file:
+ok_len	priority-queue.c	/^static int ok_len;$/;"	v	file:
+once_bubble	bucket-sort.c	/^void once_bubble(int *a,int len)$/;"	f
+panic	priority-queue.c	/^void panic(char *err)$/;"	f
+print_array	binary-tree.c	/^void print_array(int A[])$/;"	f
+print_array	bit-sort.c	/^void print_array(int A[])$/;"	f
+qsort	quick-sort.c	/^int qsort(int array[], int low, int high)$/;"	f
+radix_sort	radix-sort.c	/^void radix_sort(int array[], int len, int dec, int order)$/;"	f
+rchild	binary-tree.c	/^	struct tree *rchild;$/;"	m	struct:tree	typeref:struct:tree::tree	file:
+shellSort	shell-sort.c	/^void shellSort(int array[],int array_size)$/;"	f
+sort	select-sort.c	/^void sort(int a[], int n)$/;"	f
+swap	bit-sort.c	/^void swap(int *a, int *b)$/;"	f
+swap	bucket-sort.c	/^void swap(int *a,int *b)$/;"	f
+swap	cocktail-sort.c	/^void swap(int *x, int *y)$/;"	f
+swap	heap-sort.c	/^void swap(int *a,int *b)$/;"	f
+swap	quick-sort.c	/^void swap(int array[], int a, int b)$/;"	f
+tree	binary-tree.c	/^typedef struct tree {$/;"	s	file:
+treesort	binary-tree.c	/^void treesort(int A[], int N)$/;"	f
